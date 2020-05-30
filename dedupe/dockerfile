@@ -1,0 +1,25 @@
+ARG PYTHON_VERSION=3.7-buster
+
+FROM python:${PYTHON_VERSION} AS base
+
+WORKDIR /src
+
+FROM base AS dependencies
+
+# RUN apt-get update
+COPY requirements.txt requirements.txt
+
+RUN  pip install -r requirements.txt
+
+#WORKDIR /app
+COPY init.sh init.sh
+
+COPY . /src
+
+WORKDIR /src
+RUN pwd
+
+ENV PYTHONUNBUFFERED=0
+EXPOSE 80
+
+ENTRYPOINT ["/bin/bash","/src/init.sh"]

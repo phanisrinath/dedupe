@@ -1,0 +1,29 @@
+id1,book1,author1,id2,book2,author2,comb_key
+1,efficient optimistic concurrency control using loosely synchronized clocks,barbara liskov atul adya robert gruber umesh maheshwari,2,an efficient optimistic concurrency control by using losely synchronised clock,atul adya robert gruber umesh liscov barbara,1_2
+1,efficient optimistic concurrency control using loosely synchronized clocks,barbara liskov atul adya robert gruber umesh maheshwari,3,controlling data warehouses with knowledge networks,jan dirk becker matthias jarke andreas boehmer elvira schaefer,1_3
+2,an efficient optimistic concurrency control by using losely synchronised clock,atul adya robert gruber umesh liscov barbara,3,controlling data warehouses with knowledge networks,jan dirk becker matthias jarke andreas boehmer elvira schaefer,2_3
+3,controlling data warehouses with knowledge networks,jan dirk becker matthias jarke andreas boehmer elvira schaefer,4,controlling data warehouses with knowledge networks,elvira schaefer jan dirk becker andreas boehmer matthias jarke,3_4
+4,controlling data warehouses with knowledge networks,elvira schaefer jan dirk becker andreas boehmer matthias jarke,1,efficient optimistic concurrency control using loosely synchronized clocks,barbara liskov atul adya robert gruber umesh maheshwari,1_4
+5,sqlj part 0 now known as sql olb object language bindings ,andrew eisenberg jim melton,6,sqlj part 0 now known as sql olb language bindings,andrew eisenberg jim melton,5_6
+5,sqlj part 0 now known as sql olb object language bindings ,andrew eisenberg jim melton,7,sqlj part 0 now known as sql olb object language bindings ,andrew john heisenberg jim melton jr,5_7
+6,sqlj part 0 now known as sql olb language bindings,andrew eisenberg jim melton,7,sqlj part 0 now known as sql olb object language bindings ,andrew john heisenberg jim melton jr,6_7
+8,agents trust and information access on the semantic web,timothy w finin anupam joshi,9,agents trust and information access on the semantic web,tim finin anupam v joshi,8_9
+8,agents trust and information access on the semantic web,timothy w finin anupam joshi,16,harry potter and the philosopher s stone,j k rowling,16_8
+9,agents trust and information access on the semantic web,tim finin anupam v joshi,16,harry potter and the philosopher s stone,j k rowling,16_9
+10,star hungy stay foolish,rashmi bansal,11,stay hungy stay foolish,rashmi b,10_11
+10,star hungy stay foolish,rashmi bansal,1,efficient optimistic concurrency control using loosely synchronized clocks,barbara liskov atul adya robert gruber umesh maheshwari,1_10
+11,stay hungy stay foolish,rashmi b,1,efficient optimistic concurrency control using loosely synchronized clocks,barbara liskov atul adya robert gruber umesh maheshwari,1_11
+12,the alchemist o alquimista ,paulo coelho,13,the alchemist,paulo coelho,12_13
+12,the alchemist o alquimista ,paulo coelho,19,the lord of the rings,j r r tolkien,12_19
+13,the alchemist,paulo coelho,19,the lord of the rings,j r r tolkien,13_19
+14,the little prince le petit prince ,antoine de saint exupéry,15,the little prince,antoine de st exupery,14_15
+14,the little prince le petit prince ,antoine de saint exupéry,19,the lord of the rings,j r r tolkien,14_19
+15,the little prince,antoine de st exupery,19,the lord of the rings,j r r tolkien,15_19
+16,harry potter and the philosopher s stone,j k rowling,21,harry potter and the sorcerer s stone,jk rowling,16_21
+16,harry potter and the philosopher s stone,j k rowling,18,harry potter and phillosopers stone,j k rowling,16_18
+17,harry potter and the chamber of secrets,j k rowling,16,harry potter and the philosopher s stone,j k rowling,16_17
+17,harry potter and the chamber of secrets,j k rowling,21,harry potter and the sorcerer s stone,jk rowling,17_21
+18,harry potter and phillosopers stone,j k rowling,21,harry potter and the sorcerer s stone,jk rowling,18_21
+19,the lord of the rings,j r r tolkien,20,the lord of the rings two towers,jrr tolkien,19_20
+19,the lord of the rings,j r r tolkien,17,harry potter and the chamber of secrets,j k rowling,17_19
+20,the lord of the rings two towers,jrr tolkien,17,harry potter and the chamber of secrets,j k rowling,17_20

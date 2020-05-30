@@ -1,0 +1,28 @@
+id1,book1,author_x,id2,book2,author_y,comb_key
+1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",2,an efficient optimistic concurrency control by using losely synchronised clock,"atul adya , robert gruber , umesh, liscov barbara",1_2
+1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",3,controlling data warehouses with knowledge networks,"jan-dirk becker , matthias jarke , andreas boehmer , elvira schaefer",1_3
+2,an efficient optimistic concurrency control by using losely synchronised clock,"atul adya , robert gruber , umesh, liscov barbara",3,controlling data warehouses with knowledge networks,"jan-dirk becker , matthias jarke , andreas boehmer , elvira schaefer",2_3
+3,controlling data warehouses with knowledge networks,"jan-dirk becker , matthias jarke , andreas boehmer , elvira schaefer",4,controlling data warehouses with knowledge networks,"elvira schaefer , jan-dirk becker , andreas boehmer , matthias jarke",3_4
+4,controlling data warehouses with knowledge networks,"elvira schaefer , jan-dirk becker , andreas boehmer , matthias jarke",1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",1_4
+5,sqlj part 0 now known as sql olb object language bindings ,"andrew eisenberg , jim melton",7,sqlj part 0 now known as sql olb object language bindings ,"andrew john heisenberg , jim melton jr",5_7
+5,sqlj part 0 now known as sql olb object language bindings ,"andrew eisenberg , jim melton",6,sqlj part 0 now known as sql olb language bindings,"andrew eisenberg , jim melton",5_6
+6,sqlj part 0 now known as sql olb language bindings,"andrew eisenberg , jim melton",7,sqlj part 0 now known as sql olb object language bindings ,"andrew john heisenberg , jim melton jr",6_7
+8,agents trust and information access on the semantic web,"timothy w. finin , anupam joshi",9,agents trust and information access on the semantic web,"tim finin , anupam v joshi",8_9
+8,agents trust and information access on the semantic web,"timothy w. finin , anupam joshi",16,harry potter and the philosopher s stone,J K Rowling,16_8
+9,agents trust and information access on the semantic web,"tim finin , anupam v joshi",16,harry potter and the philosopher s stone,J K Rowling,16_9
+10,star hungy stay foolish,Rashmi Bansal,11,stay hungy stay foolish,Rashmi B,10_11
+10,star hungy stay foolish,Rashmi Bansal,1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",1_10
+11,stay hungy stay foolish,Rashmi B,1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",1_11
+12,the alchemist o alquimista ,Paulo Coelho,13,the alchemist,Paulo Coelho,12_13
+12,the alchemist o alquimista ,Paulo Coelho,19,the lord of the rings,J. R. R. Tolkien,12_19
+13,the alchemist,Paulo Coelho,19,the lord of the rings,J. R. R. Tolkien,13_19
+14,the little prince le petit prince ,Antoine de Saint-Exupéry,15,the little prince,Antoine de St Exupery,14_15
+14,the little prince le petit prince ,Antoine de Saint-Exupéry,19,the lord of the rings,J. R. R. Tolkien,14_19
+15,the little prince,Antoine de St Exupery,19,the lord of the rings,J. R. R. Tolkien,15_19
+16,harry potter and the philosopher s stone,J K Rowling,21,harry potter and the sorcerer s stone,JK Rowling,16_21
+16,harry potter and the philosopher s stone,J K Rowling,18,harry potter and phillosopers stone,J K Rowling,16_18
+17,harry potter and the chamber of secrets,J K Rowling,16,harry potter and the philosopher s stone,J K Rowling,16_17
+17,harry potter and the chamber of secrets,J K Rowling,21,harry potter and the sorcerer s stone,JK Rowling,17_21
+18,harry potter and phillosopers stone,J K Rowling,21,harry potter and the sorcerer s stone,JK Rowling,18_21
+19,the lord of the rings,J. R. R. Tolkien,20,the lord of the rings two towers,JRR Tolkien,19_20
+20,the lord of the rings two towers,JRR Tolkien,13,the alchemist,Paulo Coelho,13_20

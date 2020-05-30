@@ -1,0 +1,8 @@
+gensim==3.8.0
+Flask==1.0.2
+pandas==0.23.0
+numpy==1.17.2
+textdistance==4.2.0
+scikit-learn==0.22
+tqdm==4.35.0
+annoy==1.16.3

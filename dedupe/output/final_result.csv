@@ -1,0 +1,22 @@
+id,book,author,Duplicate
+1,efficient optimistic concurrency control using loosely synchronized clocks,"barbara liskov , atul adya , robert gruber , umesh maheshwari",cluster_0
+2,An efficient optimistic concurrency control by using losely synchronised clock,"atul adya , robert gruber , umesh, liscov barbara",cluster_0
+3,controlling data warehouses with knowledge networks,"jan-dirk becker , matthias jarke , andreas boehmer , elvira schaefer",cluster_1
+4,controlling data warehouses with knowledge networks,"elvira schaefer , jan-dirk becker , andreas boehmer , matthias jarke",cluster_1
+5,"sqlj part 0 , now known as sql/olb ( object-language bindings )","andrew eisenberg , jim melton",cluster_2
+6,"sqlj part 0 , now known as sql/olb language bindings","andrew eisenberg , jim melton",cluster_2
+7,"sqlj part 0 , now known as sql/olb ( object-language bindings )","andrew john heisenberg , jim melton jr",cluster_2
+8,"agents , trust , and information access on the semantic web","timothy w. finin , anupam joshi",cluster_3
+9,"agents , trust , and information access on the semantic web","tim finin , anupam v joshi",cluster_3
+10,Star hungy stay foolish,Rashmi Bansal,unique
+11,Stay hungy stay foolish,Rashmi B,unique
+12,The Alchemist (O Alquimista),Paulo Coelho,unique
+13,The Alchemist,Paulo Coelho,unique
+14,The Little Prince (Le Petit Prince),Antoine de Saint-Exupéry,cluster_4
+15,The Little Prince,Antoine de St Exupery,cluster_4
+16,Harry Potter and the Philosopher's Stone,J K Rowling,cluster_5
+17,Harry Potter and the chamber of secrets,J K Rowling,unique
+18,Harry Potter and Phillosopers Stone,J K Rowling,cluster_5
+19,The Lord of the Rings,J. R. R. Tolkien,cluster_6
+20,The Lord of the Rings Two Towers,JRR Tolkien,cluster_6
+21,Harry Potter and the Sorcerer's Stone,JK Rowling,unique
