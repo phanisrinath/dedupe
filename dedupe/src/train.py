@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score, train_test_split
-from sklearn.externals import joblib
+import joblib
 
 
 def train_model(data_to_build_model, prefixes_to_use, clf=None):
@@ -58,5 +58,7 @@ def train_model(data_to_build_model, prefixes_to_use, clf=None):
 
 
 if __name__ == "__main__":
-    train_model("output/prepared_data.csv",
-                ["book", "author"])
+    # train_model("output/prepared_data.csv",
+    #             ["book", "author"])
+    train_model("output/prepared_data_2.csv",
+            ["title"])

@@ -5,7 +5,7 @@ import textdistance
 from tqdm import tqdm
 
 
-def read_clean_data(path_, df=None, prefixes_to_clean=None):
+def read_clean_data(path_, df=None, prefixes_to_clean=None, fill_missing=''):
     """ Description
     :type path_: string
     :param path_: (optional) path to the file to read
@@ -23,7 +23,10 @@ def read_clean_data(path_, df=None, prefixes_to_clean=None):
     """
     if path_ is not None:
         df = pd.read_csv(path_)
-
+    
+    if fill_missing is not None:
+        df.fillna(value='', inplace=True)
+    
     cols = list()
     for i in prefixes_to_clean:
         cols.extend([j for j in df.columns if i in j])
@@ -175,8 +178,14 @@ def add_features(prefixes_to_extract, df):
 
 
 if __name__ == "__main__":
-    df = read_clean_data(path_="input/train-joined-id.csv",
-                         prefixes_to_clean=["book", "author"])
-    df_features = add_features(prefixes_to_extract=["book", "author"], df=df)
+    # df = read_clean_data(path_="input/train-joined-id.csv",
+    #                      prefixes_to_clean=["book", "author"])
+    # df_features = add_features(prefixes_to_extract=["book", "author"], df=df)
+    # df = pd.concat([df, df_features], axis=1)
+    # df.to_csv("output/prepared_data.csv", index=False)
+
+    df = read_clean_data(path_="input/train-joined-id_2.csv",
+                        prefixes_to_clean=["title"])
+    df_features = add_features(prefixes_to_extract=["title"], df=df)
     df = pd.concat([df, df_features], axis=1)
-    df.to_csv("ouput/prepared_data.csv", index=False)
+    df.to_csv("output/prepared_data_2_1.csv", index=False)
